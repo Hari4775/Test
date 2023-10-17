@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  user-select: none;
+}
+
+.mycard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Btn{align-items: center;
+justify-content: center;
+margin-left: 30%;}
+
+Card.Img{
+  width: "1rem";
+  height:"1rem";
+  justify-content: "center";
+  margin-left:"30%";
+  background-color: blue;
+  color: chartreuse;
+}
+
+.harii{
+  background-color: red;
+}
+
+.nav-link {
+  text-decoration: none; /* Remove the default underline */
+  color: #000; /* Set the text color */
+}
